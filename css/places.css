@@ -1,0 +1,93 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background: linear-gradient(30deg, rgb(46, 45, 45), rgb(37, 39, 39));
+   
+}
+
+#page-logo a{
+    color: rgb(183, 230, 235);
+}
+header{
+    position: static;
+}
+
+header nav a{
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover{
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+
+/* Main Section */
+main ul{
+    width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+main li img{
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}
+
+main li{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions{
+    text-align: right;
+}
+.actions a{
+    text-decoration: none;
+    color: #00cece;
+    border-radius: 8px;
+    padding: 8px;
+   
+}
+
+.actions a:hover{
+    background-color: rgb(187, 248, 255);
+}
+
+li:nth-of-type(3){
+    grid-column: 1/ span 2;
+    
+}
+
+/* li:nth-of-type(4){
+    width: 500px;
+    height: 280px;
+}
+
+li:nth-of-type(5){
+    width: 700px;
+    height: 280px;
+    position: relative;
+    left: -50px;
+} */
+
+li p{
+    font-size: 15px;
+}

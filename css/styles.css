@@ -1,0 +1,98 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+/* Main Section 1 */
+#hero{
+    height: 800px;
+    background-image: url("/100daysWebDev/TravelWebsite/images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: auto ;
+    position: relative;
+}
+
+#hero-content a{
+    text-decoration: none;
+    background-color: rgb(124, 219, 219);
+    padding: 12px 24px;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 10px 4px 8px rgba(68, 67, 69, 1);
+    font-size: 24px;
+    font-weight: bold;
+}
+#hero-content a:hover{
+    background-color: rgb(124, 181, 233);
+}
+
+#hero-content{
+    margin: auto;
+    width: 700px;
+    background-color: rgba(51, 47, 51, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 8px rgb(68, 67, 69);
+    padding: 50px 0;
+    position: relative;
+    top: 35%;
+    font-family: 'Raleway', sans-serif;
+}
+#hero-content h1{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#hero-content p{
+    color: white;
+    font-weight: 300px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+/* Destinations */
+#highlight h2{
+    text-align: center;
+    color: rgb(59, 65, 64);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 24px 0;
+}
+#highlight{
+    padding: 24px ;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(177, 250, 255));
+}
+#destinations{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.destination p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: grey;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.destination strong{
+    color: rgb(0, 160, 117);
+ }
+
+.destination{
+    margin: 0 20px;
+}
+
+.destination img{
+    height: 200px;
+    width: 25em;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(68, 67, 67);
+    object-fit: cover;
+    
+}
